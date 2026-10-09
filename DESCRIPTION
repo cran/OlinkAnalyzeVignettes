@@ -1,7 +1,7 @@
 Type: Package
 Package: OlinkAnalyzeVignettes
 Title: Vignettes for Analyzing Data using 'OlinkAnalyze'
-Version: 1.0.1
+Version: 1.1.0
 Authors@R: c(
     person("Kathleen", "Nevola", , "biostattools@olink.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5183-6444", "kathy-nevola")),
@@ -69,11 +69,11 @@ License: AGPL (>= 3)
 Encoding: UTF-8
 Depends: R (>= 4.1.0)
 Suggests: dplyr (>= 1.2.0), ggplot2, ggpubr, ggrepel, kableExtra,
-        knitr, OlinkAnalyze, stringr, tidyr
+        knitr, OlinkAnalyze, stringr, tidyr, umap
 VignetteBuilder: knitr
-Config/roxygen2/version: 8.0.0
+Config/roxygen2/version: 8.1.0
 NeedsCompilation: no
-Packaged: 2026-06-01 18:27:06 UTC; kathy.nevola
+Packaged: 2026-10-09 15:51:49 UTC; kathy.nevola
 Author: Kathleen Nevola [aut, cre] (ORCID:
     <https://orcid.org/0000-0002-5183-6444>, kathy-nevola),
   Marianne Sandin [aut] (ORCID: <https://orcid.org/0000-0001-6186-963X>,
@@ -112,4 +112,4 @@ Author: Kathleen Nevola [aut, cre] (ORCID:
   Olink [cph, fnd]
 Maintainer: Kathleen Nevola <biostattools@olink.com>
 Repository: CRAN
-Date/Publication: 2026-06-08 14:50:26 UTC
+Date/Publication: 2026-10-09 16:40:02 UTC

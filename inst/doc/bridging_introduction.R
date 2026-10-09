@@ -473,8 +473,8 @@ npx_df_br_no_ctrl <- npx_df_br |>
                       .data[["Project"]])
   )
 
-# Generate check log
-check_log_npx_df_br_no_ctrl <- OlinkAnalyze::check_npx(
+# Update attached check log
+npx_df_br_no_ctrl <- OlinkAnalyze::update_check_log(
   df = npx_df_br_no_ctrl
   )
 
@@ -681,8 +681,7 @@ if (requireNamespace(package = "ggpubr", quietly = TRUE)) {
   OlinkAnalyze::olink_pca_plot(
     df = npx_df_br_no_ctrl,
     color_g = "Type",
-    byPanel = TRUE,
-    check_log = check_log_npx_df_br_no_ctrl
+    byPanel = TRUE
   )
 }
 
@@ -698,6 +697,13 @@ if (requireNamespace(package = "ggpubr", quietly = TRUE)) {
 #   ) |>
 #   write.table(
 #     file = "New_Normalized_NPX_data.csv",
-#     sep = ";"
+#     append = FALSE,
+#     quote = FALSE,
+#     sep = ";",
+#     eol = "\n",
+#     na = "",
+#     dec = ".",
+#     row.names = FALSE,
+#     col.names = TRUE
 #   )
 

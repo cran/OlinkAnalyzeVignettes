@@ -1,5 +1,5 @@
 ---
-title: "Calculating LOD from Olink® Explore data" 
+title: "Calculating LOD from Olink® NGS data" 
 output: 
   html_vignette:
     toc: true
@@ -7,7 +7,7 @@ output:
     includes:
       in_header: ../man/figures/logo.html
 vignette: >
-  %\VignetteIndexEntry{Calculating LOD from Olink® Explore data}
+  %\VignetteIndexEntry{Calculating LOD from Olink® NGS data}
   %\VignetteEncoding{UTF-8}
   %\VignetteEngine{knitr::rmarkdown}
 date: 'Compiled: `r format(Sys.Date(), "%B %d, %Y")`'
